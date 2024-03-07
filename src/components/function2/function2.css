@@ -25,9 +25,10 @@ marquee{
   width: 60%;
   margin-left: 250px;
   margin-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
-  line-height: 35px;
+  line-height: 30px;
+  padding-top: 20px;
 }
 .th {
   padding-right: 100px;
@@ -48,6 +49,9 @@ marquee{
   width: 70%;
   margin-left: 190px;
   margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 30px;
     /* margin-right: 290px; */
  }
  .theading{
@@ -64,8 +68,11 @@ marquee{
  }
  #dropdown{
     width:600px;
-    margin-left: 300px;
+    margin-left: 350px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 2px #c7c6c6;
+    border: none;
+
  }

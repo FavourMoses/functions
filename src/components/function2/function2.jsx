@@ -65,7 +65,7 @@ const Function2 = () => {
         jerseyNo: "9",
       },
       {
-        name: "Paul",
+        name: "Peter",
         sport: "football",
         pMetrics: "poor",
         gLevel: "primary 3",
@@ -568,37 +568,37 @@ const riverRevamped = revampedstudents.splice(
             <option value="option1">Chidi - basketball</option>
             <option value="option2">Emeka - basketball</option>
             <option value="option3">mark - basketball</option>
-            <option value="option4">Genesis</option>
-            <option value="option5">Exodus</option>
-            <option value="option6">Isaiah</option>
-            <option value="option7">Samuel</option>
-            <option value="option8">John</option>
-            <option value="option9">Samuel</option>
-            <option value="option10">Peter</option>
-            <option value="option11">Paul</option>
-            <option value="option12">Miracle</option>
-            <option value="option13">Festus</option>
-            <option value="option14">Faith</option>
-            <option value="option15">firstname</option>
-            <option value="option16">secondname</option>
-            <option value="option17">thirdname</option>
-            <option value="option18">fourthname</option>
-            <option value="option19">fifthname</option>
-            <option value="option20">Mtthew</option>
-            <option value="option21">Job</option>
-            <option value="option22">Obianuju</option>
-            <option value="option23">Emma</option>
-            <option value="option24">Ruby</option>
-            <option value="option25">Micheal</option>
-            <option value="option26">Emeka</option>
-            <option value="option27">Emeka</option>
-            <option value="option28">Maro</option>
-            <option value="option29">Helen</option>
-            <option value="option30">Scholar</option>
-            <option value="option31">Jude</option>
-            <option value="option32">Emperor</option>
-            <option value="option33">Monday</option>
-            <option value="option34">UC</option>
+            <option value="option4">Genesis - basketball</option>
+            <option value="option5">Exodus - basketball</option>
+            <option value="option6">Isaiah - football</option>
+            <option value="option7">Samuel - football</option>
+            <option value="option8">John - basketball</option>
+            <option value="option9">Samuel - basketball</option>
+            <option value="option10">Peter - football</option>
+            <option value="option11">Paul - football</option>
+            <option value="option12">Miracle - tabletennis</option>
+            <option value="option13">Festus - longtennis</option>
+            <option value="option14">Faith - longtennis</option>
+            <option value="option15">firstname - football</option>
+            <option value="option16">secondname - tennis</option>
+            <option value="option17">thirdname - basketball</option>
+            <option value="option18">fourthname - tennis</option>
+            <option value="option19">fifthname - football</option>
+            <option value="option20">Mtthew - basketball</option>
+            <option value="option21">Job - fottball</option>
+            <option value="option22">Obianuju - longtennis</option>
+            <option value="option23">Emma - longtennis</option>
+            <option value="option24">Ruby - football</option>
+            <option value="option25">Micheal - basketball</option>
+            <option value="option26">Emeka - basketball</option>
+            <option value="option27">Emeka - basketball</option>
+            <option value="option28">Maro - basketball</option>
+            <option value="option29">Helen - football</option>
+            <option value="option30">Scholar - tennis</option>
+            <option value="option31">Jude - longtennis</option>
+            <option value="option32">Anabel - table tennis</option>
+            <option value="option33">Monday - basketball</option>
+            <option value="option34">UC - basketball</option>
           </select>
         </div>
       </body>
