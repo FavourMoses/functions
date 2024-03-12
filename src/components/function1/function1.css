@@ -7,8 +7,21 @@
 p {
   text-align: center;
   padding-top: 20px;
+  font-size: 17px;
+  line-height: 30px;
 }
 .mallhead2{
   text-align: center;
   padding-top: 30px;
+}
+.lasthead{
+  text-align: center;
+  margin-top: 50px;
+}
+.nameAmount{
+  margin-left: 600px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 35px;
+    margin-bottom: 40px;
 }

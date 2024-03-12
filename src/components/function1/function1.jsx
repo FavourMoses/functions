@@ -1,4 +1,4 @@
-import "./function1.css"
+import "./function1.css";
 const Activity = () => {
   const customers = [
     {
@@ -243,7 +243,8 @@ const Activity = () => {
     },
   ];
 
-  const abcMallCustomers = abcMall.splice(
+
+  abcMall.splice(
     0,
     5,
     {
@@ -344,26 +345,26 @@ const Activity = () => {
       </ol>
 
       {/* lastly purchase amount and name */}
-      <h2 className="mallhead2">purchased amount and name</h2>
-      <ol className="table1List">
-        <table>
-          <thead>
-            <tr className="theading">
-              <th className="th">Name</th>
-              <th className="th">Amount</th>
-            </tr>
-          </thead>
 
-          <tbody>
-            {customers.map((splicedcustomers, index) => (
-              <tr key={index}>
-                <td>{splicedcustomers.name}</td>
-                <td>{splicedcustomers.purchaseAmount}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </ol>
+      <h2 className="lasthead"> Customers and Their Recent Purchase</h2>
+      <p>
+        Why do customers buy products? As a brand, this is one of the most
+        fundamental questions you ask. Innovation and quality are nice, but they
+        don’t <br/>matter if customers don’t care about your items. It would be ideal
+        if you took the time to learn about the factors that drive your
+        consumers’ behavior. <br/>It is critical to have a deep understanding of your
+        consumers in order to develop high-quality products and advertise them
+        successfully. Our grasp <br/>of what influences people’s decisions to
+        purchase or not to purchase our products needs to be extensive. 
+        Here is a list of our<br/> customers and the amount paid for their recent goods
+      </p>
+      <ul className="nameAmount">
+        {customers.map((nameAmount, index) => (
+          <li key={index}>
+            {nameAmount.name} - {nameAmount.purchaseAmount}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
